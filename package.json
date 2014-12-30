@@ -1,0 +1,28 @@
+{
+  "name": "ar-workflow-helpers",
+  "version": "0.0.1",
+  "description": "Helpers for providing common methods to control our workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "ar",
+    "workflow",
+    "helpers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:agencyrevolution/ar-workflow-helpers.git"
+  },
+  "author": "Quyen <quyen@agencyrevolution.com>",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^0.2.13",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.2"
+  }
+}
