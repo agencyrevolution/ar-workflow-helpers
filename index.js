@@ -1,1 +1,1 @@
-exports.KafkaHelper = require('./lib/kafkaHelper');
+exports.KafkaWorker = require('./lib/kafkaWorker');
