@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
