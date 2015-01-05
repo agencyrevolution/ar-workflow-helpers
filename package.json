@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
   "author": "Quyen <quyen@agencyrevolution.com>",
   "license": "ISC",
   "dependencies": {
+    "async": "^0.9.0",
     "kafka-node": "^0.2.13",
     "q": "^1.1.2"
   },
