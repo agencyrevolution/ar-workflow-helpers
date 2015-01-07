@@ -1,2 +1,2 @@
 exports.KafkaWorker = require('./lib/kafkaWorker');
-exports.ExitHandler = require('./lib/exitHandler');
+exports.KafkaWorkerPool = require('./lib/KafkaWorkerPool');
