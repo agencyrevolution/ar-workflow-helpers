@@ -1,10 +1,13 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha --require should --reporter spec --timeout 200000 ./tests/**/**.spec.js",
+    "test-file": "mocha --require should --reporter spec --timeout 200000",
+    "test-debug": "mocha --require should --reporter spec --timeout 200000 --debug-brk"
   },
   "keywords": [
     "ar",
@@ -29,7 +32,10 @@
     "request": "^2.54.0",
     "timemachine": "^0.2.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^5.2.0"
+  },
   "gitHead": "54ec690aa6091cf5e9ec3412989fb79d317db981",
   "bugs": {
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
