@@ -47,7 +47,7 @@ describe('# ruleEngine.findMatches(rule, array) -  1 condition - 1 field', funct
   ];
 
 
-  it('field 1: array, operator: contain', function() {
+  it('field 1: array, operator: containAny', function() {
 
     var rule = {
       conditions: [
@@ -58,8 +58,8 @@ describe('# ruleEngine.findMatches(rule, array) -  1 condition - 1 field', funct
               isArray: true
             }
           ],
-          operator: operators.contain.name,
-          value: 'Commercial'
+          operator: operators.containAny.name,
+          value: ['Commercial']
         }
       ],
       matchType: 'all'

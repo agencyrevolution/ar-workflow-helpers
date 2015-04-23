@@ -58,8 +58,8 @@ describe('# ruleEngine.findMatches(rule, array) -  1 condition - 1 field', funct
               isArray: true
             }
           ],
-          operator: operators.contain.name,
-          value: 'Commercial'
+          operator: operators.containAny.name,
+          value: ['Commercial']
         },
         {
           fields: [
