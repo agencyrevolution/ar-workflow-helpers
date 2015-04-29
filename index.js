@@ -2,17 +2,24 @@
 
 
 /**
- * KafkaWorker class
- * @type {class}
- */
-exports.KafkaWorker = require('./lib/kafkaWorker');
-
-
-/**
  * KafkaWorkerPool class
  * @type {class}
  */
-exports.KafkaWorkerPool = require('./lib/kafkaWorkerPool');
+exports.KafkaWorkerPool = require('./lib/kafka-worker-pool');
+
+
+/**
+ * KafkaWorker class
+ * @type {class}
+ */
+exports.KafkaWorker = require('./lib/kafka-worker');
+
+
+/**
+ * Logger
+ * @type {object}
+ */
+exports.logger = require('./lib/logger');
 
 
 /**
@@ -33,4 +40,5 @@ exports.RuleEngine = require('./lib/rule-engine/');
  * Sytem time
  * @type {object}
  */
-exports.systemTime = require('./lib/systemTime');
+exports.systemTime = require('./lib/system-time');
+

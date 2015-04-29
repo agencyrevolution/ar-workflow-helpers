@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.34",
+  "version": "0.0.35",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
@@ -41,9 +41,9 @@
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
   },
   "homepage": "https://github.com/agencyrevolution/ar-workflow-helpers",
-  "_id": "ar-workflow-helpers@0.0.11",
-  "_shasum": "b47a0705191f741de70a72136437ca6f96563a87",
-  "_from": "ar-workflow-helpers@0.0.11",
+  "_id": "ar-workflow-helpers@0.0.34",
+  "_shasum": "41369f8523425db1639d0dc7d5aab02b8d2fb6bc",
+  "_from": "ar-workflow-helpers@latest",
   "_npmVersion": "1.4.28",
   "_npmUser": {
     "name": "hung.nguyen",
@@ -64,5 +64,7 @@
     "tarball": "http://registry.npmjs.org/ar-workflow-helpers/-/ar-workflow-helpers-0.0.1.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/ar-workflow-helpers/-/ar-workflow-helpers-0.0.11.tgz"
+  "_resolved": "https://registry.npmjs.org/ar-workflow-helpers/-/ar-workflow-helpers-0.0.11.tgz",
+  "readme": "ar-workflow-helpers\n===================\n\nA npm module providing common methods to work with kafka\n\n### Installation\n\n```\nnpm install ar-workflow-helper\n```",
+  "readmeFilename": "README.md"
 }
