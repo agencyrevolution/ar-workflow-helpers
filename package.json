@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.39",
+  "version": "0.0.43",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
+    "co": "^4.5.4",
     "kafka-node": "^0.2.13",
     "lodash": "^3.1.0",
     "node-uuid": "^1.4.3",
@@ -43,8 +44,8 @@
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
   },
   "homepage": "https://github.com/agencyrevolution/ar-workflow-helpers",
-  "_id": "ar-workflow-helpers@0.0.39",
-  "_shasum": "cafa0ce90c1eec81c92158443a1457290c6a94d2",
+  "_id": "ar-workflow-helpers@0.0.41",
+  "_shasum": "bd61919c63f1d6dc9346731fcbff33421dd764a9",
   "_from": "ar-workflow-helpers@latest",
   "_npmVersion": "1.4.28",
   "_npmUser": {

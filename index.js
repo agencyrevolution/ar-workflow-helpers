@@ -1,6 +1,9 @@
 'use strict';
 
 
+exports.BaseKafkaWorker = require('./lib/base-kafka-worker');
+
+
 /**
  * KafkaWorkerPool class
  * @type {class}
@@ -13,6 +16,13 @@ exports.KafkaWorkerPool = require('./lib/kafka-worker-pool');
  * @type {class}
  */
 exports.KafkaWorker = require('./lib/kafka-worker');
+
+
+/**
+ * LogTrace class
+ * @type {class}
+ */
+exports.LogTrace = require('./lib/log-trace');
 
 
 /**
@@ -42,3 +52,9 @@ exports.RuleEngine = require('./lib/rule-engine/');
  */
 exports.systemTime = require('./lib/system-time');
 
+
+/**
+ * WorkerLogTrace class
+ * @type {class}
+ */
+exports.WorkerLogTrace = require('./lib/worker-log-trace');
