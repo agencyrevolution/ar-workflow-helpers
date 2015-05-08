@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
@@ -44,8 +44,8 @@
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
   },
   "homepage": "https://github.com/agencyrevolution/ar-workflow-helpers",
-  "_id": "ar-workflow-helpers@0.0.41",
-  "_shasum": "bd61919c63f1d6dc9346731fcbff33421dd764a9",
+  "_id": "ar-workflow-helpers@0.0.44",
+  "_shasum": "10504d7ec2f5afb2f2096e3181a43accbe882682",
   "_from": "ar-workflow-helpers@latest",
   "_npmVersion": "1.4.28",
   "_npmUser": {
