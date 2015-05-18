@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.48",
+  "version": "0.0.53",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:agencyrevolution/ar-workflow-helpers.git"
+    "url": "git+ssh://git@github.com/agencyrevolution/ar-workflow-helpers.git"
   },
   "author": {
     "name": "Quyen",
@@ -32,6 +32,8 @@
     "q": "^1.4.0",
     "request": "^2.55.0",
     "timemachine": "^0.2.6",
+    "rethinkdbdash": "^1.16.5",
+    "thunkify": "^2.1.2",
     "winston": "^1.0.0",
     "winston-logstash": "^0.2.11"
   },
@@ -44,13 +46,13 @@
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
   },
   "homepage": "https://github.com/agencyrevolution/ar-workflow-helpers",
-  "_id": "ar-workflow-helpers@0.0.48",
-  "_shasum": "4e04547c1483fb14cdf2643b254e077917ef5c09",
+  "_id": "ar-workflow-helpers@0.0.53",
+  "_shasum": "06e4af0a6588b37f25e97591ce3402c9d3c06cc7",
   "_from": "ar-workflow-helpers@latest",
-  "_npmVersion": "1.4.28",
+  "_npmVersion": "2.9.0",
   "_npmUser": {
-    "name": "hung.nguyen",
-    "email": "hungnt.bkit@gmail.com"
+    "name": "nmqanh",
+    "email": "nmqanh@gmail.com"
   },
   "maintainers": [
     {
@@ -60,14 +62,17 @@
     {
       "name": "hung.nguyen",
       "email": "hungnt.bkit@gmail.com"
+    },
+    {
+      "name": "nmqanh",
+      "email": "nmqanh@gmail.com"
     }
   ],
   "dist": {
-    "shasum": "b47a0705191f741de70a72136437ca6f96563a87",
-    "tarball": "http://registry.npmjs.org/ar-workflow-helpers/-/ar-workflow-helpers-0.0.1.tgz"
+    "shasum": "06e4af0a6588b37f25e97591ce3402c9d3c06cc7",
+    "tarball": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.53.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/ar-workflow-helpers/-/ar-workflow-helpers-0.0.11.tgz",
-  "readme": "ar-workflow-helpers\n===================\n\nA npm module providing common methods to work with kafka\n\n### Installation\n\n```\nnpm install ar-workflow-helper\n```",
-  "readmeFilename": "README.md"
+  "_resolved": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.53.tgz",
+  "_nodeVersion": "2.0.1"
 }

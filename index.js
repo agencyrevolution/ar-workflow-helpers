@@ -1,6 +1,10 @@
 'use strict';
 
 
+/**
+ * BaseKafkaWorker class
+ * @type {class}
+ */
 exports.BaseKafkaWorker = require('./lib/base-kafka-worker');
 
 
@@ -58,3 +62,10 @@ exports.systemTime = require('./lib/system-time');
  * @type {class}
  */
 exports.WorkerLogTrace = require('./lib/worker-log-trace');
+
+
+/**
+ * KafkaWorkerTest class
+ * @type {class}
+ */
+exports.KafkaWorkerTest = require('./lib/kafka-worker-test');
