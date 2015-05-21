@@ -69,3 +69,10 @@ exports.WorkerLogTrace = require('./lib/worker-log-trace');
  * @type {class}
  */
 exports.KafkaWorkerTest = require('./lib/kafka-worker-test');
+
+
+/**
+ * PluckFieldBuilder class
+ * @type {class}
+ */
+exports.pluckFieldBuilder = require('./lib/pluck-field-builder');

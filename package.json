@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.54",
+  "version": "0.0.56",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
@@ -46,8 +46,8 @@
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
   },
   "homepage": "https://github.com/agencyrevolution/ar-workflow-helpers",
-  "_id": "ar-workflow-helpers@0.0.53",
-  "_shasum": "06e4af0a6588b37f25e97591ce3402c9d3c06cc7",
+  "_id": "ar-workflow-helpers@0.0.55",
+  "_shasum": "b9edb2e9291d0914fb84b9364f9b98c195e31d61",
   "_from": "ar-workflow-helpers@latest",
   "_npmVersion": "2.9.0",
   "_npmUser": {
@@ -69,10 +69,10 @@
     }
   ],
   "dist": {
-    "shasum": "06e4af0a6588b37f25e97591ce3402c9d3c06cc7",
-    "tarball": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.53.tgz"
+    "shasum": "b9edb2e9291d0914fb84b9364f9b98c195e31d61",
+    "tarball": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.55.tgz"
   },
   "directories": {},
-  "_resolved": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.53.tgz",
+  "_resolved": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.55.tgz",
   "_nodeVersion": "2.0.1"
 }
