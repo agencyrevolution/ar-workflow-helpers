@@ -1,6 +1,6 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.56",
+  "version": "0.0.61",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
@@ -46,8 +46,8 @@
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
   },
   "homepage": "https://github.com/agencyrevolution/ar-workflow-helpers",
-  "_id": "ar-workflow-helpers@0.0.55",
-  "_shasum": "b9edb2e9291d0914fb84b9364f9b98c195e31d61",
+  "_id": "ar-workflow-helpers@0.0.60",
+  "_shasum": "c86078219cef7ef13cd86394e194153828a838cd",
   "_from": "ar-workflow-helpers@latest",
   "_npmVersion": "2.9.0",
   "_npmUser": {
@@ -69,10 +69,11 @@
     }
   ],
   "dist": {
-    "shasum": "b9edb2e9291d0914fb84b9364f9b98c195e31d61",
-    "tarball": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.55.tgz"
+    "shasum": "56ed10b49e41712b679bb242e2f9090aab1c5f95",
+    "tarball": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.58.tgz"
   },
   "directories": {},
-  "_resolved": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.55.tgz",
-  "_nodeVersion": "2.0.1"
+  "_resolved": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.58.tgz",
+  "_nodeVersion": "2.0.1",
+  "readme": "ERROR: No README data found!"
 }
