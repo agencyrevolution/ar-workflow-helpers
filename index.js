@@ -44,13 +44,6 @@ exports.Service = require('./lib/service');
 
 
 /**
- * RuleEngine class
- * @type {class}
- */
-exports.RuleEngine = require('./lib/rule-engine/');
-
-
-/**
  * Sytem time
  * @type {object}
  */
@@ -69,3 +62,10 @@ exports.WorkerLogTrace = require('./lib/worker-log-trace');
  * @type {class}
  */
 exports.KafkaWorkerTest = require('./lib/kafka-worker-test');
+
+
+/**
+ * Worker class
+ * @type {class}
+ */
+exports.Worker = require('./lib/worker');

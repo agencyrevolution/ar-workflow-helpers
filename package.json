@@ -1,13 +1,10 @@
 {
   "name": "ar-workflow-helpers",
-  "version": "0.0.68",
+  "version": "0.0.69",
   "description": "Helpers for providing common methods to control our workflow",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha --require should --reporter spec --timeout 200000 ./tests/**/**.spec.js",
-    "test-file": "mocha --require should --reporter spec --timeout 200000",
-    "test-debug": "mocha --require should --reporter spec --timeout 200000 --debug-brk"
+    "start": "node index.js"
   },
   "keywords": [
     "ar",
@@ -46,10 +43,10 @@
     "url": "https://github.com/agencyrevolution/ar-workflow-helpers/issues"
   },
   "homepage": "https://github.com/agencyrevolution/ar-workflow-helpers",
-  "_id": "ar-workflow-helpers@0.0.65",
-  "_shasum": "67b0f5b384a0ca14ca6a1b19f9879e40bd0a0354",
-  "_from": "ar-workflow-helpers@latest",
-  "_npmVersion": "2.9.0",
+  "_id": "ar-workflow-helpers@0.0.68",
+  "_shasum": "9c2513df4e12d9572635db22e499cdeade91b5f7",
+  "_from": "ar-workflow-helpers@0.0.68",
+  "_npmVersion": "2.7.6",
   "_npmUser": {
     "name": "hung.nguyen",
     "email": "hungnt.bkit@gmail.com"
@@ -69,11 +66,11 @@
     }
   ],
   "dist": {
-    "shasum": "67b0f5b384a0ca14ca6a1b19f9879e40bd0a0354",
-    "tarball": "http://registry.npmjs.org/ar-workflow-helpers/-/ar-workflow-helpers-0.0.65.tgz"
+    "shasum": "9c2513df4e12d9572635db22e499cdeade91b5f7",
+    "tarball": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.68.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/ar-workflow-helpers/-/ar-workflow-helpers-0.0.65.tgz",
-  "_nodeVersion": "2.0.1",
+  "_resolved": "http://registry.nodejitsu.com/ar-workflow-helpers/-/ar-workflow-helpers-0.0.68.tgz",
+  "_nodeVersion": "1.7.1",
   "readme": "ERROR: No README data found!"
 }
